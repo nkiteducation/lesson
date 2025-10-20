@@ -1,5 +1,5 @@
 import uvicorn
-from fastapi import FastAPI, HTTPException, status
+from fastapi import FastAPI, status
 from fastapi.responses import RedirectResponse
 
 contact_list = {"nazar": 380501051478}
